@@ -1,0 +1,8 @@
+VAR x, a=100 AS INT
+START
+    x= ((a *5)/10 + 10) * -1
+    * x should have the value -60
+    OUTPUT: "[[]" & xyz & "[]]"
+STOP
+* Output of the sample program:	
+* [-60]
